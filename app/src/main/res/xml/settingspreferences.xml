@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<EditTextPreference-->
+    <!--android:defaultValue="the-verge"-->
+    <!--android:dialogTitle="News Source"-->
+    <!--android:key="sourcePref"-->
+    <!--android:title="Source" />-->
+    <EditTextPreference
+        android:defaultValue="28.7"
+        android:dialogTitle="Enter latitude"
+        android:key="latitude"
+        android:title="Latitude"
+        />
+    <EditTextPreference
+        android:defaultValue="77.1"
+        android:dialogTitle="Enter longitude"
+        android:key="longitude"
+        android:title="Longitude"
+        />
+    <EditTextPreference
+        android:defaultValue="500"
+        android:dialogTitle="Enter radius in metre(s)"
+        android:key="radius"
+        android:title="Radius"
+        />
+
+
+</PreferenceScreen>

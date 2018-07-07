@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="NAME"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:layout_below="@+id/name"
+            android:textSize="20sp"
+            android:id="@+id/heading"
+            android:padding="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/Base.TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading"
+            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:text="ADDRESS"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:text="Rating:"
+            android:id="@+id/ratinghead"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/rating"
+            style="@style/Base.TextAppearance.AppCompat.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/ratinghead"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="RATING"/>
+
+
+    </RelativeLayout>
+</ScrollView>
